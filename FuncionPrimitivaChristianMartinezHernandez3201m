@@ -130,3 +130,32 @@ syms x;
 int (3*x^5-2*x^3)
 ans = (sym)
 & Con el fin de llegar a este resultado= f(x)= u^2-u^4/2
+
+clean
+%Esto marca la funcion de la integral
+func = @(x)(x^1);
+%considerando los intervalos que contiene
+sol = quad(func,1,4)
+plot(func,'r','linewidth',2)
+%Indica que la funcion con resultado de 7.5
+
+%Esto marca la funcion de la integral
+func = @(3*x);
+%considerando los intervalos que contiene
+sol = quad(func,1,4)
+plot(func,'r','linewidth',2)
+%Indica que la funcion con resultado de 15
+
+%Esto marca la funcion de la integral
+func = @(|x+2|);
+%considerando los intervalos que contiene
+sol = quad(func,-2,4)
+plot(func,'r','linewidth',2)
+%Indica que la funcion con resultado de 10
+
+%Esto marca la funcion de la integral
+func = @(2x^2-3x);
+%considerando los intervalos que contiene
+sol = quad(func,-3,3)
+plot(func,'r','linewidth',2)
+%Indica que la funcion con resultado de 18
