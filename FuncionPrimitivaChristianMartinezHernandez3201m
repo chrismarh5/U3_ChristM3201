@@ -1,0 +1,132 @@
+% Octave Script
+% Titulo    		:Funcion constante
+% Descripcion		:Script para graficar una funcion constante, funcion de f(x)=16-x^2/4-x  
+% Autor 	    	:Christian Martinez Hernandez Grupo: 3201 correo: chris6905mh@gmail.com
+% Dia			      :20210415
+% Nota			    :Requiere aplicacion octave usar en consola preferentemente
+
+% Indica esta funcion  
+pkg load symbolic
+syms t;
+int (t)
+ans = (sym)
+& Con el fin de llegar a este resultado= f(g)= gt
+
+% Indica esta funcion 
+pkg load symbolic
+syms x;
+int (x^3)
+ans = (sym)
+% Con el fin de llegar a este resultado= f(x)= x^4/4
+
+% Indica esta funcion 
+pkg load symbolic
+syms x;
+int (5*x)
+ans = (sym)
+& Con el fin de llegar a este resultado= f(x)= 5x
+
+% Indica esta funcion 
+pkg load symbolic
+syms x;
+int (8*x^2-3*x^3)
+ans = (sym)
+& Con el fin de llegar a este resultado= f(x)= 8x^3/3-3x^4
+
+% Indica esta funcion 
+pkg load symbolic
+syms x;
+int (2*e^x + 4^x)
+ans = (sym)
+& Con el fin de llegar a este resultado= f(x)= 2*e^x + 2(2x^-1/ln(2)
+
+% Indica esta funcion 
+pkg load symbolic
+syms x;
+int (3/x+5/1+x^2)
+ans = (sym)
+& Con el fin de llegar a este resultado= f(x)= 3ln(|x|)+5arc(x)
+
+% Indica esta funcion  
+pkg load symbolic
+syms x;
+int (x^5)
+ans = (sym)
+& Con el fin de llegar a este resultado= f(x)= x^6/6
+
+% Indica esta funcion
+pkg load symbolic
+syms x;
+int (x^-7)
+ans = (sym)
+& Con el fin de llegar a este resultado= f(x)= -1/6x^6
+
+% Indica esta funcion 
+pkg load symbolic
+syms x;
+int (x^3/2)
+ans = (sym)
+& Con el fin de llegar a este resultado= f(x)= 2x^2|x/5
+
+% Indica esta funcion 
+pkg load symbolic
+syms x;
+int (x^-7/3)
+ans = (sym)
+& Con el fin de llegar a este resultado= f(x)= 3/4x^3|x
+
+% Indica esta funcion 
+pkg load symbolic
+syms x;
+int (sqrt(x))
+ans = (sym)
+& Con el fin de llegar a este resultado= f(x)= 2x|x/3
+
+% Indica esta funcion 
+pkg load symbolic
+syms x;
+int (-7*x^5)
+ans = (sym) 
+& Con el fin de llegar a este resultado= f(x)= -7x^6/6
+
+% Indica esta funcion 
+pkg load symbolic
+syms x;
+int (3*x^4)
+ans = (sym)
+& Con el fin de llegar a este resultado= f(x)= 3x^5/5
+
+% Indica esta funcion
+pkg load symbolic
+syms x;
+int (2*x^7)
+ans = (sym)
+& Con el fin de llegar a este resultado= f(x)= x^8/4
+
+% Indica esta funcion 
+pkg load symbolic
+syms x;
+int (1/x^3)
+ans = (sym)
+& Con el fin de llegar a este resultado= f(x)= -1/2x^2
+
+% Indica esta funcion 
+pkg load symbolic
+syms x;
+int (3/x^5)
+ans = (sym)
+& Con el fin de llegar a este resultado= f(x)= -3/4x^4
+
+% Indica esta funcion 
+pkg load symbolic
+syms x;
+int (5*x^3/2)
+ans = (sym)
+& Con el fin de llegar a este resultado= f(x)= 2u^2|u
+
+% Indica esta funcion 
+pkg load symbolic
+syms x;
+int (3*x^5-2*x^3)
+ans = (sym)
+& Con el fin de llegar a este resultado= f(x)= u^2-u^4/2
