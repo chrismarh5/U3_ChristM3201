@@ -1,0 +1,44 @@
+% De secuencia de comandos de octava
+% Titulo:      Teorema Fundamental de Calculo 
+% Descripcion: Script para calcular ejercios aplicando el teorema fundamental del calculo  
+% Autor:       Christian Martinez Hernandez Grupo: 3201 correo: chris6905mh@gmail.com
+% Dia:         20210528
+% Nota: Requiere aplicacion octava usar en consola preferiblemente
+
+%En cada uno de los ejercicios mostrados, indica las integrales que representan cada ejercicio
+%Con su respectivo resultado
+clc
+func1 = @(x)x*(x^3);
+sol1 = quad(func1,-1,3)
+
+clc
+func1 = @(x)x*((x^3)-(2*x)+3);
+sol1 = quad(func1,1,2)
+
+clc
+func1 = @(x)x*(sqrt(2*x)+sqrt(x));
+sol1 = quad(func1,0,8)
+
+clc
+func1 = @(y)y*(1+squrt(y)/(y^2));
+sol1 = quad(func1,1,4)
+
+clc
+func1 = @(x)x*(sqrt(25+3*x));
+sol1 = quad(func1,1,0)
+
+clc
+func1 = @(y)y*(y^2/y+2);
+sol1 = quad(func1,-1,1)
+
+clc
+func1 = @(t)t*((2*t)/1+(t^2));
+sol1 = quad(func1,2,3)
+
+clc
+func1 = @(x)x*(sqrt(a)-sqrt(x))^2;
+sol1 = quad(func1,0,a)
+
+clc
+func1 = @(x)x*(x/sqrt(1+2*x^2));
+sol1 = quad(func1,0,2)
