@@ -1,0 +1,40 @@
+% De secuencia de comandos de octava
+% Titulo:       Calculo de Integrales Definidas 
+% Descripcion:  Script para calcular ejercios de integrales definidas aplicando el teorema fundamental del calculo  
+% Autor:        Christian Martinez Hernandez 
+% Grupo:        3201 
+% Correo:       chris6905mh@gmail.com
+% Dia:          20210603
+% Nota:         Requiere aplicacion octava usar en consola preferiblemente
+
+% Permite saber la distancia recorrida, conociendo su velocidad en millas por hora
+& Tomando en cuenta la siguiente expresion v(t)= √t + t 
+clc
+func1 = @(t)t*(sqrt(t)+ t);
+sol1 = quad(func1,1,4)
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+clc
+% v(t)=√t + t  
+v = 2
+% La segunda partida que recorr es de: 
+V = sqrt(v)+2
+
+clc
+% v(t)=√t + t  
+v = 3
+% La tercera partida que recorr es de: 
+V = sqrt(v)+3
+
+clc
+% v(t)=√t + t  
+v = 4
+% La cuarta partida que recorr es de: 
+V = sqrt(v)+4
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
+% Es la distancia en metros que recorrio el vehiculo mientras el conductor esta frenando
+& Tomando en cuenta la siguiente expresion v(t)= -1.197t² + 58.67
++clc
+func1 = @(t)t*((-1.197)*(t^2)+58.97);
+sol1 = quad(func1,0,7)
