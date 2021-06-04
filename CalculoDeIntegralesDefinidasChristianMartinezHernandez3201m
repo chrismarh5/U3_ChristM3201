@@ -17,22 +17,23 @@ sol1 = quad(func1,1,4)
 clc
 % v(t)=√t + t  
 v = 2
-% La segunda partida que recorr es de: 
+% La segunda partida que recorrer es de: 
 V = sqrt(v)+2
 
 clc
 % v(t)=√t + t  
 v = 3
-% La tercera partida que recorr es de: 
+% La tercera partida que recorrer es de: 
 V = sqrt(v)+3
 
 clc
 % v(t)=√t + t  
 v = 4
-% La cuarta partida que recorr es de: 
+% La cuarta partida que recorrer es de: 
 V = sqrt(v)+4
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 % Es la distancia en metros que recorrio el vehiculo mientras el conductor esta frenando
 & Tomando en cuenta la siguiente expresion v(t)= -1.197t² + 58.67
 +clc
